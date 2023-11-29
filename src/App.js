@@ -114,7 +114,7 @@ class App extends  Component {
           icon:'',
           cityFound:'',
           countryFound:'',
-          empty:'city not founddd'})
+          empty:'city not found'})
       }
       else{
         this.setState({
