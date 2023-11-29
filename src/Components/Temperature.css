@@ -1,0 +1,43 @@
+/*tempDiv,data,noData*/
+
+.tempDiv{
+    font-size: calc(10px + 2vmin);
+
+}
+/*temp data*/
+.data{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.state{
+    color:rgb(90, 43, 43);
+    font-weight: bold;
+    margin-bottom:calc(100px + 2vmin);
+
+  
+} 
+
+
+.p{
+    /* border: 5px rgb(128, 129, 128) solid; */
+        width: calc(70% + 5vmin);
+        padding: calc(10px) calc(5px);
+
+}
+.temp{
+    /* border: 5px rgb(128, 129, 128) solid; */
+
+        color: rgb(212, 32, 32);
+
+}
+
+/*message*/
+.noData{
+    color: brown;
+    font-size: calc(10px + 2vmin);
+
+
+}
