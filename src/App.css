@@ -9,12 +9,22 @@
 
 
 }
+header{
+  /* background-color: aqua; */
+  /* min-height: 15vh;
+  margin: calc(100px) auto 1px;
+  font-size: calc(10px + 2vmin); */
+  position:relative;
+  top:100px;
+  color:rgb(254, 253, 252)
+
+}
 
 main{
   /* background-color: aquamarine; */
   /* border: 5px red solid; */
   min-height: 90vh;
-  margin: calc(100px + 2vmin) auto;
+  margin: calc(10px + 2vmin) auto;
   width:calc(30vw + 45vmin);
   background-image: linear-gradient(to bottom right,white, rgb(128, 198, 206),rgb(128, 198, 206),rgb(0, 238, 255), white, rgb(0, 238, 255));
   box-shadow: -10px 10px 50px 10px;

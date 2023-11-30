@@ -132,16 +132,27 @@ class App extends  Component {
 
 
   };
+
+  time=()=>{
+    let time = new Date().getFullYear()
+    return time
+  }
  
   
   render(){
     return (
     <div className="App">
+      <header>
+        <h1>Weather App</h1>
+      </header>
       <main>
           <Form handleSubmit={this.handleSubmit}/>
           <Temperature data = {this.state}/>
            {/* {this.state.empty} */}
       </main>
+      <footer>
+        <p>Hala &copy; {this.time()}</p>
+      </footer>
       
     </div>
   );
